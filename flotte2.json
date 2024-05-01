@@ -1,0 +1,60 @@
+{
+    "navires": [
+      {
+        "type": "Croiseur",
+        "sante_base": 900,
+        "esquive_base": 20,
+        "taille": 3,
+        "initiative": 60,
+        "attaques": [
+          {
+            "nom": "Artillerie",
+            "degats": 250,
+            "precision": 70
+          },
+          {
+            "nom": "Rails",
+            "degats": 300,
+            "precision": 60
+          }
+        ],
+        "quantite": 3
+      },
+      {
+        "type": "Cuirassé",
+        "sante_base": 2700,
+        "esquive_base": 0,
+        "taille": 5,
+        "initiative": 40,
+        "attaques": [
+          {
+            "nom": "Bombardement",
+            "degats": 700,
+            "precision": 55
+          },
+          {
+            "nom": "Plasma",
+            "degats": 900,
+            "precision": 50
+          }
+        ],
+        "quantite": 2
+      },
+      {
+        "type": "Fregate",
+        "sante_base": 150,
+        "esquive_base": 50,
+        "taille": 2,
+        "initiative": 90,
+        "attaques": [
+          {
+            "nom": "Missiles",
+            "degats": 50,
+            "precision": 75
+          }
+        ],
+        "quantite": 7
+      }
+    ]
+  }
+  

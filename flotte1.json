@@ -1,0 +1,50 @@
+{
+    "navires": [
+      {
+        "type": "Corvette",
+        "sante_base": 100,
+        "esquive_base": 60,
+        "taille": 1,
+        "initiative": 100,
+        "attaques": [
+          {
+            "nom": "Torpilles",
+            "degats": 30,
+            "precision": 80
+          }
+        ],
+        "quantite": 10
+      },
+      {
+        "type": "Destroyer",
+        "sante_base": 300,
+        "esquive_base": 40,
+        "taille": 2,
+        "initiative": 80,
+        "attaques": [
+          {
+            "nom": "Canons",
+            "degats": 80,
+            "precision": 85
+          }
+        ],
+        "quantite": 5
+      },
+      {
+        "type": "Chasseur",
+        "sante_base": 50,
+        "esquive_base": 80,
+        "taille": 1,
+        "initiative": 120,
+        "attaques": [
+          {
+            "nom": "Laser",
+            "degats": 20,
+            "precision": 90
+          }
+        ],
+        "quantite": 30
+      }
+    ]
+  }
+  
